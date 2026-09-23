@@ -5,7 +5,7 @@ API service của **Hệ thống Quản lý Niêm yết, Trái phiếu & Công b
 - Express +  TypeScript, chạy trên **Cloud Run** (service `hnxcis-backend`)
 - **Cloud SQL for PostgreSQL** qua Unix socket `/cloudsql/<INSTANCE_CONNECTION_NAME>`
 - Drizzle ORM + drizzle-kit cho schema & migration
-- Gemini API (`@google/genai`) cho các nghiệp vụ AI: FR-032, FR-063, FR-064, FR-065
+- Gemini API (`@google/genai`) cho các nghiệp vụ AI: FR-032, FR-063, FR-064 và FR-065
 - Xác thực Firebase ID token (bật/tắt bằng `AUTH_REQUIRED`)
 
 Frontend nằm ở repo riêng (`hnxcis-frontend`) và gọi service này qua HTTPS.
